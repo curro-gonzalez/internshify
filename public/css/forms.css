@@ -1,0 +1,27 @@
+/* Dedicaremos este fichero a los estilos de los elementos de formularios */
+.FormGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.FormGroup__label {
+    font-size: 0.875rem;
+    color: #6a4e23;
+}
+
+.FormGroup__input {
+    padding: 0.625rem;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.FormGroup__input:focus {
+    border-color: #6a4e23;
+    outline: none;
+}
+
+.FormGroup__input--invalid {
+    border-color: darkred;
+    outline: none;
+}
